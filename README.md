@@ -22,10 +22,19 @@ To facilitate the use of the customised data set in the MASA framework, an examp
 
 ## Requirements
 
+First to create a virtual environment, 
+
+```
+conda create -n MASA python=3.8
+```
+
 Please run on Python 3.x, and install the libraries by running the command:
 ```
 python -m pip install -r requirements.txt
 ```
+
+and then use conda to install ta-lib
+
 - The experiments of the MASA framework and baseline approaches are run on a GPU server machine installed with the AMD Ryzen 9 3900X 12-Core processor running at 3.8 GHz and two Nvidia RTX 3090 GPU cards.
 
 ## Entrance Script for Training
